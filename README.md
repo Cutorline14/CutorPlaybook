@@ -37,4 +37,4 @@ Cutor Playbook **solo es compatible con Windows 10**.
 Aunque el proyecto contiene binarios de terceros necesarios para las modificaciones, la mayor parte del Playbook es transparente y auditable, siguiendo la filosofía de **AtlasOS**.  
 
 ## ⚡ Personalización
-Cutor Playbook es totalmente **personalizable** para tu propio uso. Puedes modificar o extender los Playbooks para adaptarlos a tus necesidades.
+Cutor Playbook es totalmente **personalizable** para tu propio uso. Puedes modificar o extender el Playbook para adaptarlo a tus necesidades.
