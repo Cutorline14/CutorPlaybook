@@ -1,0 +1,1 @@
+echo @shutdown /r -t 0 %* > %systemroot%\system32\reboot.bat

@@ -1,0 +1,1 @@
+echo @cls %* > %systemroot%\system32\clear.bat

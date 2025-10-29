@@ -1,0 +1,33 @@
+﻿Importante el Windows Defender te elimina archivos, desactivalo y usa otro antivirus.
+
+
+primero ejecutar el los .bat en admin comenzando con el script para poder poner scripts en el powershell
+
+
+en el archivo de ls he puesto un comando que vi en un hilo de stackoverflow que añade el comando ls en windows, copiando el dir, hace lo mismo. (ejecutar en admin)
+
+Fuente: https://stackoverflow.com/questions/42727245/how-to-list-files-in-windows-using-command-prompt-cmd-ive-tried-using-ls
+
+
+En el archivo de clear he clonado el cls que hace lo mismo. (ejecutar en admin)
+
+
+En sl.exe añade la steam locomotive (comando de linux) en el cmd, hay que ponerlo en el system32 junto al archivo libncursesw6.dll, i la carpeta "MinGW" en la raiz del C:\ (ponla en oculto)
+(en la powershell no funciona, per lo he fixeado, copia la carpeta MicrosoftPowershell a tus documentos del usuario C:\Users\(tu usuario)\Documents)
+
+Fuente: https://youtu.be/aA2cIM4YSDY, (https://github.com/mtoyoda/sl)
+
+Instalar winfetch
+Ejecutar en powershell:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser (dale a que si)
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+scoop install winfetch
+
+
+Fuentes: https://github.com/lptstr/winfetch
+https://scoop.sh/
+https://github.com/lptstr/winfetch/wiki/Installation
+https://stackoverflow.com/questions/74763204/installing-scoop-fails-running-the-installer-as-administrator-is-disabled-by-d
+

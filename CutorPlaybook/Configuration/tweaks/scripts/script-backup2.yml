@@ -1,0 +1,9 @@
+---
+title: Backup Cutor Services and Drivers
+description: Backs up default Cutor services and drivers, after all the tweaks are finished
+actions:
+  - !powerShell:
+    command: >-
+      .\BACKUP.ps1 -FilePath """$([Environment]::GetFolderPath('Windows'))\CutorModules\Other\cutorServices.reg"""
+    wait: true
+    exeDir: true

@@ -1,0 +1,1 @@
+echo @shutdown /s -t 0 %* > %systemroot%\system32\halt.bat

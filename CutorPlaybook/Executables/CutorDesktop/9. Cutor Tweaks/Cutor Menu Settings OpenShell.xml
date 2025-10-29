@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Settings component="StartMenu" version="4.4.196">
+	<ShiftClick value="ClassicMenu"/>
+	<ShiftWin value="ClassicMenu"/>
+	<ShiftRight value="1"/>
+	<StartScreenShortcut value="0"/>
+	<HighlightNew value="0"/>
+	<SkinW7 value="Metro"/>
+	<SkinVariationW7 value=""/>
+	<SkinOptionsW7>
+		<Line>USER_IMAGE=1</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>ICON_FRAMES=0</Line>
+		<Line>OPAQUE=1</Line>
+	</SkinOptionsW7>
+	<EnableStartButton value="0"/>
+	<StartButtonType value="ClasicButton"/>
+	<CustomTaskbar value="1"/>
+	<TaskbarLook value="Opaque"/>
+	<SkipMetro value="1"/>
+	<MenuItems7>
+		<Line>Item1.Command=user_files</Line>
+		<Line>Item1.Settings=NOEXPAND</Line>
+		<Line>Item2.Command=computer</Line>
+		<Line>Item2.Settings=NOEXPAND</Line>
+		<Line>Item3.Command=control_panel</Line>
+		<Line>Item3.Settings=TRACK_RECENT</Line>
+		<Line>Item4.Command=pc_settings</Line>
+		<Line>Item4.Settings=TRACK_RECENT</Line>
+	</MenuItems7>
+</Settings>
